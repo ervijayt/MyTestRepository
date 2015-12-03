@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<beansmapping>
+	<bean id="com.happytrip.services.UserProfileService" >com.happytrip.services.impl.UserProfileServiceImpl</bean>
+	<bean id="com.happytrip.services.AdminService" >com.happytrip.services.impl.AdminServiceImpl</bean>
+	<bean id="com.happytrip.services.BookingService" >com.happytrip.services.impl.BookingServiceImpl</bean>
+	<bean id="com.happytrip.services.FlightBookingService" >com.happytrip.services.impl.FlightBookingServiceImpl</bean>
+	<bean id="com.happytrip.services.ReportingService" >com.happytrip.services.impl.ReportingServiceImpl</bean>
+	<bean id="com.happytrip.dao.AirlineDao" >com.happytrip.dao.jdbc.JdbcAirlineDao</bean>
+	<bean id="com.happytrip.dao.BackupDao" >com.happytrip.dao.jdbc.JdbcBackupDao</bean>
+	<bean id="com.happytrip.dao.BookingDao" >com.happytrip.dao.jdbc.JdbcBookingDao</bean>
+	<bean id="com.happytrip.dao.CityDao" >com.happytrip.dao.jdbc.JdbcCityDao</bean>
+	<bean id="com.happytrip.dao.FlightBookingDao" >com.happytrip.dao.jdbc.JdbcFlightBookingDao</bean>
+	<bean id="com.happytrip.dao.FlightClassDao" >com.happytrip.dao.jdbc.JdbcFlightClassDao</bean>
+	<bean id="com.happytrip.dao.FlightDao" >com.happytrip.dao.jdbc.JdbcFlightDao</bean>
+	<bean id="com.happytrip.dao.FlightRouteDao" >com.happytrip.dao.jdbc.JdbcFlightRouteDao</bean>
+	<bean id="com.happytrip.dao.GenericDao" >com.happytrip.dao.jdbc.JdbcGenericDao</bean>
+	<bean id="com.happytrip.dao.LookupDao" >com.happytrip.dao.jdbc.JdbcLookupDao</bean>
+	<bean id="com.happytrip.dao.RoleDao" >com.happytrip.dao.jdbc.JdbcRoleDao</bean>
+	<bean id="com.happytrip.dao.RouteDao" >com.happytrip.dao.jdbc.JdbcRouteDao</bean>
+	<bean id="com.happytrip.dao.StateDao" >com.happytrip.dao.jdbc.JdbcStateDao</bean>
+	<bean id="com.happytrip.dao.UserDao" >com.happytrip.dao.jdbc.JdbcUserDao</bean>
+	<bean id="com.happytrip.dao.report.ReportDao" >com.happytrip.dao.jdbc.JdbcReportDao</bean>
+</beansmapping>
